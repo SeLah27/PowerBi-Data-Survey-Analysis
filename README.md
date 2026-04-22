@@ -55,9 +55,4 @@ across 6 dimensions, and demographic data.
 3. Remote work flexibility is now a recruitment tool, not a perk — its 
    absence will cost companies candidates
 
-## Repository Contents
-- `Data_Professional_Survey.pbix` — Power BI dashboard file
-- `Power_BI_Final_Project.xlsx` — Raw survey dataset
 
-## Dashboard Preview
-[Add screenshot of your dashboard here]
