@@ -14,45 +14,25 @@ Survey of 630 data professionals collected in 2022. Variables include job title,
 industry, salary range, programming language preference, satisfaction scores 
 across 6 dimensions, and demographic data.
 
-## Key Findings
+#Demographics & Geographic Distribution
+Country of Survey Takers: Utilizes a Treemap visualization to instantly highlight market concentration. The United States and India represent the largest blocks of respondents, alongside significant participation from the UK, Canada, and other global regions.
 
-**Compensation**
-- 43.7% of respondents earn under $40K annually, revealing that the majority 
-  of data professionals — even experienced ones — remain in lower salary bands
-- Salary satisfaction scores the lowest of all measured factors (avg 4.27/10), 
-  suggesting widespread compensation dissatisfaction across the industry
+Gender Distribution across Jobs: A Stacked Bar Chart breakdown showing gender representation within specific titles, highlighting that Data Analyst roles currently hold the highest survey engagement.
 
-**Career Entry**
-- 59% of surveyed professionals switched careers into data, indicating the 
-  field is largely built on career changers rather than direct graduates
-- Only 11.3% found breaking into data "very difficult", yet 24.8% found it 
-  "difficult" — meaning roughly 1 in 3 professionals faced real barriers to entry
+2. Compensation & Market Trends
+Average Salary by Job Title: A horizontal Bar Chart that dynamically showcases earning benchmarks. Data Scientists and Data Architects lead the salary metrics, providing clear reference data for commercial and organizational tracking.
 
-**Job Priorities**
-- 47% of professionals cite better salary as their top priority when job 
-  searching, yet salary satisfaction is the lowest-rated factor — this gap 
-  between expectation and reality is a retention risk employers should address
-- Remote work ranks as the 2nd most important factor (20%), ahead of 
-  work/life balance and company culture
+3. Technical Preferences
+Favorite Programming Language: A Stacked Column Chart segmenting language popularity by job title. Python is overwhelmingly identified as the dominant language across the board, followed by R and other general-purpose languages.
 
-**Skills & Tools**
-- Python dominates at 66.7% adoption, making it the clear standard for 
-  data professionals
-- SQL appears as a top tool despite not being a listed option, with 
-  respondents manually writing it in — confirming its foundational importance
+4. Industry Sentiment
+Difficulty to Break into Data: A Donut Chart visualization assessing market accessibility. Over 42% of respondents view entering the data field as "Neither easy nor difficult," while a combined approx. 31% classify it as "Difficult" or "Very Difficult."
 
-**Satisfaction Insights**
-- Coworker satisfaction scores highest (5.86/10) while salary scores lowest 
-  (4.27/10), suggesting data teams have strong culture but poor compensation 
-  — a pattern companies could exploit in recruitment by competing on culture 
-  when they cannot compete on salary
+🏗️ Data Governance & Quality Standards
+To ensure strict data integrity before building the visuals, the following data management protocols were implemented via Power Query:
 
-## Business Recommendations
-1. Organizations should re-evaluate compensation benchmarks for junior data 
-   roles — low salary satisfaction is a leading indicator of turnover
-2. Hiring pipelines should actively target career-switchers, who represent 
-   59% of the available talent pool
-3. Remote work flexibility is now a recruitment tool, not a perk — its 
-   absence will cost companies candidates
+Schema Design: Established strict field categories and relational dependencies to prevent data redundancy.
 
+Data Cleansing: Formatted inconsistent naming conventions within the "Job Title" and "Country" fields to establish a clean reference data baseline.
 
+Granularity Maintenance: Filtered out outliers and blank responses from the salary fields to avoid skewed averages in data visualizations.
