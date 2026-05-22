@@ -14,7 +14,7 @@ Survey of 630 data professionals collected in 2022. Variables include job title,
 industry, salary range, programming language preference, satisfaction scores 
 across 6 dimensions, and demographic data.
 
-#Demographics & Geographic Distribution
+1. Demographics & Geographic Distribution
 Country of Survey Takers: Utilizes a Treemap visualization to instantly highlight market concentration. The United States and India represent the largest blocks of respondents, alongside significant participation from the UK, Canada, and other global regions.
 
 Gender Distribution across Jobs: A Stacked Bar Chart breakdown showing gender representation within specific titles, highlighting that Data Analyst roles currently hold the highest survey engagement.
